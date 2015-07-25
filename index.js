@@ -7,7 +7,7 @@ $(document).ready(function(){
 	paint_drip($(".green"));
 	paint_drip($(".orange"));
 	paint_drip($(".purple"));
-
+	/*
 	$(".down_arrow").on("click",function(){
 		$("html, body").animate({ scrollTop: $("#about").offset().top }, 1000);
 	})
@@ -37,7 +37,7 @@ $(document).ready(function(){
 			$(".projects_nav").addClass("active");
 		}
 	})
-	
+	*/
 })
 
 function getRandom(max,min){

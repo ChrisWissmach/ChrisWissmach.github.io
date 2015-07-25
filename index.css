@@ -47,6 +47,8 @@
 }
 
 .main_content{
+	height:100%;
+	overflow:hidden;
 	font-family:"bebas-thin";
 	background-color:black;
 }
