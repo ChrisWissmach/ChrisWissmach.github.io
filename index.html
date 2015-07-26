@@ -3,20 +3,20 @@
 	<link rel="stylesheet" type="text/css" href="bootstrap.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script type="text/javascript" src="index.js"></script>
+	 <link rel="icon" type="image/png" href="icon.png" />
 </head>
 <body>
 	<div class="main_content" >
 		<nav class="navbar navbar-inverse navbar-fixed-top">
 		  <div class="container-fluid">
 		    <div class="navbar-header">
-		      <a class="navbar-brand" href="#">Chris Wissmach</a>
+		      <a class="navbar-brand" >Chris Wissmach</a>
 		    </div>
 		    <div>
 		      <ul class="nav navbar-nav">
-		        <li class="home_nav active"><a href="#">Home</a></li>
-		        <li class="about_nav"><a href="#">About</a></li>
-		        <li class="projects_nav"><a href="#">Projects</a></li> 
-		        <li class="contact_nav"><a href="#">Contact</a></li> 
+		        <li class="about_nav"><a>About</a></li>
+		        <li class="projects_nav"><a>Projects</a></li> 
+		        <!-- <li class="contact_nav"><a>Contact</a></li>  -->
 		      </ul>
 		    </div>
 		  </div>
@@ -24,20 +24,34 @@
 		<div id="home">
 			<div class="cool_area">
 				<p class="my_name">
-					Chris Wissmach
+					<b>Chris Wissmach</b>
 				</p>
-				<div class="blue">
-				</div>
-				<div class="yellow">
-				</div>
-				<div class="red">
-				</div>
-				<div class="green">
-				</div>
-				<div class="orange">
-				</div>
-				<div class="purple">
-				</div>
+			</div>
+
+			<div class="blue">
+			</div>
+			<div class="yellow">
+			</div>
+			<div class="red">
+			</div>
+			<div class="green">
+			</div>
+			<div class="orange">
+			</div>
+			<div class="purple">
+			</div>
+
+			<div class="blue2">
+			</div>
+			<div class="yellow2">
+			</div>
+			<div class="red2">
+			</div>
+			<div class="green2">
+			</div>
+			<div class="orange2">
+			</div>
+			<div class="purple2">
 			</div>
 
 
@@ -52,25 +66,81 @@
 					<img src="linkedin.png" class="linkedin_icon">
 				</a>
 			</div>
-			<!-- <img src="down.png" class="down_arrow"> -->
+			<img src="down.png" class="down_arrow">
 		</div>
 
 
 		<div id="about">
-			<div class = "about_cool_area">
-				<p class="my_name">
-					About
-				</p>
+
+			<p class="about_heading">
+				About Me
+			</p>
+			<div class = "col-sm-4">
+				<img class = "specific_about_pic" src="me.png">
 			</div>
+			<div class="about_info col-sm-8">
+				&emsp;
+				My name is Chris Wissmach and I am a student at the University of Waterloo. I am beginning my second year as a Computer Science major. I have a strong interest the area of Computer Science, specifically web development and UI/UX design/development.
+				<br>
+				<br>
+				&emsp;
+				Familiar Languages/Frameworks include Ruby on Rails, Python, C, Racket (Scheme), HTML5, CSS3, JavaScript, jQuery, and Git.
+				<br>
+				<br>
+				&emsp;
+				Other insterests include photography, graphics design, and computer gaming.
+				
+			</div>
+
+
 		</div>
 
 		<div id="projects">
-			<div class = "projects_cool_area">
-				<p class="my_name">
-					Projects
+			
+			<p class="projects_heading">
+				Projects
+			</p>
+			
+			<div class="col-sm-6 project_pic">
+				<div class="row project_icons">
+					<div class="col-xs-6 lani_logo">
+						<img src="lani_logo.png" class="lani_actual_logo">
+					</div>
+					<div class="col-xs-6 cw_logo">
+						<img src="mysite.png" class="cw_actual_logo">
+					</div>
+				</div>
+				<a class="project_link" href="http://www.lanilabs.com" target="blank_">
+					<img class = "specific_project_pic" src="lani_project.png">
+				</a>
+			</div>
+			<div class="col-sm-6 project_info">
+				<div class="row project_icons" style="height:85px;">
+				</div>
+				<p class="project_title"> Lani Inc. </p>
+				<p class="project_info_text">
+					&emsp;
+					<blank class="project_description">
+						Worked as a Software Developer Intern from May 2015 - present date.
+					</blank>
+					<br>
+					<br>
+					Tasks include:
+					<ul class="project_tasks">
+						<li class="task_1"> Web development in Ruby on Rails, HTML, CSS, JavaScript, and jQuery</li>
+						<li class="task_2"> UI/UX design and development</li>
+					</ul>
 				</p>
 			</div>
+		
 		</div>
+
+		<!--<div id="contact">
+			
+			<p class="contact_heading">
+				Contact
+			</p>
+		</div> -->
 	</div>
 
 </body>
